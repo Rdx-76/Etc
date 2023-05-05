@@ -1,0 +1,4 @@
+
+# The part .data=0x08000000 should be replaced with the correct base offset of the ROM.
+# The value 0x08000000 is valid for STM32.
+arm-none-eabi-objcopy -I binary -O elf32-little
